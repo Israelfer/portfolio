@@ -1,7 +1,9 @@
-import Experiencias from '../components/Experiencias';
 import Header from '../components/Header';
 import HomeHero from '../components/HomeHero';
+import Experiencias from '../components/Experiencias';
 import Skills from '../components/skills';
+import Contato from '../components/Contato';
+import Footer from '../components/Footer';
 import { HomeContainer } from '../styles/HomeStyles';
 
 export default function Home() {
@@ -13,7 +15,10 @@ export default function Home() {
         <HomeHero />
         <Experiencias />
         <Skills />
+        <Contato />
       </main>
+
+      <Footer />
     </HomeContainer>
   );
 }

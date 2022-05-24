@@ -24,10 +24,17 @@ function HomeHero() {
             {'\u007D'}
           </CodeItem>
           <CodeItem>
-            <span className="purple">Cargo </span>
+            <span className="purple">Stack </span>
             {'\u007B'}
             <div>
               Função: <span className="blue">Desenvolvedor Front-end</span>
+            </div>
+            <div>
+              Cursando:{' '}
+              <span className="blue">
+                Análise e Desenvolvimento <br />
+                de Sistemas
+              </span>
             </div>
             {'\u007D'}
           </CodeItem>

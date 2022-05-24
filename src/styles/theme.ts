@@ -8,7 +8,7 @@ const theme = {
   textHighlight: '#95734B',
   textLight: '#EAE1D6',
   border: '#231F1B',
-  inputBackground: '#EAE1D6',
+  inputBackground: '#123040',
   error: '#d45d99'
 };
 
