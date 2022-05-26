@@ -14,6 +14,7 @@ export const Container = styled.div<ContainerProps>`
   display: flex;
   align-items: flex-end;
   justify-content: flex-start;
+
   section {
     z-index: 2;
     h1 {
@@ -26,6 +27,7 @@ export const Container = styled.div<ContainerProps>`
       font-size: 2rem;
     }
   }
+
   > div.overlay {
     position: absolute;
     left: 0;

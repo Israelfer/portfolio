@@ -8,7 +8,7 @@ interface SkillsProps {
 
 export default function SkillItem({ title, icon }: SkillsProps) {
   return (
-    <SkillContainer>
+    <SkillContainer data-aos="fade-up">
       <p>{title}</p>
       {icon}
     </SkillContainer>

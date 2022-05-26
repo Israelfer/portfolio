@@ -13,7 +13,7 @@ export const ProjetoContainer = styled.div`
     padding: 0 5rem;
     p {
       color: ${({ theme }) => theme.textLight};
-      font-size: 1.5rem;
+      font-size: 1.2rem;
       font-weight: 300;
       text-align: justify;
     }
@@ -25,7 +25,7 @@ export const ProjetoContainer = styled.div`
       transition: 0.5s;
       margin-top: 2rem;
       &:hover {
-        background: ${({ theme }) => darken(0.05, theme.primary)};
+        background: ${({ theme }) => darken(0.08, theme.primary)};
       }
       a {
         color: #fff;

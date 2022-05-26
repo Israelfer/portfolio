@@ -12,7 +12,7 @@ export default function Projeto() {
         imgUrl="https://raw.githubusercontent.com/Israelfer/reality-desafio-suzano/main/assets/images/print-site.png"
       />
 
-      <main>
+      <main data-aos="fade-up">
         <p>
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industrs standard dummy text ever

@@ -7,8 +7,15 @@ interface Props {
   path: string;
 }
 
-export default function NavLink({ title, path }: Props) {
+export default function NavLink({ title, path, includes = false }: Props) {
   const router = useRouter();
+
+  function verifyIfIsActive() {
+    if (includes) {
+      return router.pathname;
+    }
+    return path === router.pathname;
+  }
 
   const isActive = router.pathname === path;
 
