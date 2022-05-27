@@ -1,0 +1,23 @@
+{
+  "id": "70575b8f-7862-495a-a746-676659ae099c",
+  "uid": "neque-quo-fugiat",
+  "type": "portfolio-israel",
+  "data": {
+    "title": "cultivate innovative methodologies",
+    "description": "engineer impactful e-tailers",
+    "type": "recontextualize collaborative users",
+    "link": {
+      "link_type": "Web",
+      "url": "https://prismic.io"
+    },
+    "thumbnail": {
+      "dimensions": {
+        "width": 900,
+        "height": 500
+      },
+      "alt": "Placeholder image",
+      "copyright": null,
+      "url": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=900&h=500&fit=crop"
+    }
+  }
+}

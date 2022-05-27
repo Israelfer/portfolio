@@ -5,6 +5,7 @@ import { NavLinkContainer } from './styles';
 interface Props {
   title: string;
   path: string;
+  includes?: boolean;
 }
 
 export default function NavLink({ title, path, includes = false }: Props) {
@@ -12,12 +13,12 @@ export default function NavLink({ title, path, includes = false }: Props) {
 
   function verifyIfIsActive() {
     if (includes) {
-      return router.pathname;
+      return router.pathname.includes(path);
     }
     return path === router.pathname;
   }
 
-  const isActive = router.pathname === path;
+  const isActive = verifyIfIsActive();
 
   return (
     <NavLinkContainer isActive={isActive}>

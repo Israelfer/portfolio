@@ -26,7 +26,7 @@ function Footer() {
         <section>
           <AiFillLinkedin
             onClick={() =>
-              handleRedirect('https://linkedin.com/israel-batista')
+              handleRedirect('https://www.linkedin.com/in/israel-batista')
             }
           />
           <AiOutlineGithub

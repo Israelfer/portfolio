@@ -3,29 +3,33 @@ import SectionTitle from '../SectionTitle';
 import ProjectItem from './ProjectItem';
 import { Container } from './styles';
 
-function Projects() {
+interface IProjeto {
+  slug: string;
+  title: string;
+  type: string;
+  description: string;
+  link: string;
+  thumbnail: string;
+}
+
+interface ProjetosProps {
+  projetos: IProjeto[];
+}
+
+function Projects({ projetos }: ProjetosProps) {
   return (
     <Container>
       <SectionTitle title="Últimos projetos" />
       <section>
-        <ProjectItem
-          img="https://raw.githubusercontent.com/Israelfer/reality-desafio-suzano/main/assets/images/print-site.png"
-          title="Desafio Suzano"
-          type="Melhorando a acessibilidade"
-          slug="desafio-suzano"
-        />
-        <ProjectItem
-          img="https://raw.githubusercontent.com/Israelfer/reality-desafio-suzano/main/assets/images/print-site.png"
-          title="Projeto 02"
-          type="Website"
-          slug="teste2"
-        />
-        <ProjectItem
-          img="https://raw.githubusercontent.com/Israelfer/reality-desafio-suzano/main/assets/images/print-site.png"
-          title="Projeto 03"
-          type="Website"
-          slug="teste3"
-        />
+        {projetos.slice(0, 3).map(projeto => (
+          <ProjectItem
+            key={projeto.slug}
+            img={projeto.thumbnail}
+            title={projeto.title}
+            type={projeto.type}
+            slug={projeto.slug}
+          />
+        ))}
       </section>
       <button type="button">
         <Link href="/projetos">
