@@ -8,7 +8,7 @@ Projeto criado para ter como site pessoal. Apresentar meus projetos em destaques
 
 ![Screen Two](./src//assets/print2.png?raw=true 'screenshot')
 
-## Technologies 🛠️
+## Tecnologias 🛠️
 
 _Front-end:_ ReactJS, NextJS, Styled Components, TypeScript, Prismic, Prettier, ESlint
 

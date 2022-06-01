@@ -9,7 +9,7 @@ import Header from '../components/Header';
 import HomeHero from '../components/HomeHero';
 import Experiencias from '../components/Experiencias';
 import Projects from '../components/Projects';
-import Skills from '../components/Skills';
+import Conhecimentos from '../components/Conhecimentos';
 import Contato from '../components/Contato';
 import Footer from '../components/Footer';
 import { getPrismicClient } from '../services/Prismic';
@@ -56,7 +56,7 @@ export default function Home({ projetos }: HomeProps) {
         <HomeHero />
         <Experiencias />
         <Projects projetos={projetos} />
-        <Skills />
+        <Conhecimentos />
         <Contato />
       </main>
 

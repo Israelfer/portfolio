@@ -1,5 +1,5 @@
 import { ReactNode } from 'react';
-import { SkillContainer } from './styles';
+import { ConhecimentoContainer } from './styles';
 
 interface SkillsProps {
   title: string;
@@ -8,9 +8,9 @@ interface SkillsProps {
 
 export default function SkillItem({ title, icon }: SkillsProps) {
   return (
-    <SkillContainer data-aos="fade-up">
+    <ConhecimentoContainer data-aos="fade-up">
       <p>{title}</p>
       {icon}
-    </SkillContainer>
+    </ConhecimentoContainer>
   );
 }

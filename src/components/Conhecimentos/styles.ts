@@ -20,7 +20,7 @@ export const Container = styled.section`
   }
 `;
 
-export const SkillContainer = styled.div`
+export const ConhecimentoContainer = styled.div`
   display: flex;
   flex-direction: column;
   gap: 0.8rem;
