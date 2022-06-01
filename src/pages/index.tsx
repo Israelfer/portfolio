@@ -41,10 +41,10 @@ export default function Home({ projetos }: HomeProps) {
           name="description"
           content="Hey, me chamo Israel Batista e sou um desenvolvedor Front-end. Aqui apresento alguns projetos desenvolvidos por mim!"
         />
-        <meta property="og:image" content="/ogimage.png" />
-        <meta property="og:image:secure_url" content="/ogimage.png" />
-        <meta name="twitter:image" content="/ogimage.png" />
-        <meta name="twitter:image:src" content="/ogimage.png" />
+        <meta property="og:image" content="/ogimageat.png" />
+        <meta property="og:image:secure_url" content="/ogimageat.png" />
+        <meta name="twitter:image" content="/ogimageat.png" />
+        <meta name="twitter:image:src" content="/ogimageat.png" />
         <meta
           property="og:description"
           content="Hey, me chamo Israel Batista e sou um desenvolvedor Front-end. Aqui apresento alguns projetos desenvolvidos por mim!"
