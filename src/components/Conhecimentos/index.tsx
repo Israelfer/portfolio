@@ -5,7 +5,7 @@ import SectionTitle from '../SectionTitle';
 import ConhecimentoItem from './ConhecimentoItem';
 import { Container } from './styles';
 
-function Skills() {
+function Conhecimentos() {
   return (
     <Container>
       <SectionTitle title="Conhecimentos" />
@@ -21,4 +21,4 @@ function Skills() {
   );
 }
 
-export default Skills;
+export default Conhecimentos;

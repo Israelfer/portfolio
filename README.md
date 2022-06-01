@@ -25,8 +25,8 @@ Clone o projeto
 Entre na pasta do projeto e instale as dependências
 
 ```bash
-  portfolio
-  yarn install
+  cd portfolio
+  yarn
 ```
 
 Execute o projeto
