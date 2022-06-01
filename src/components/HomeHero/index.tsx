@@ -1,5 +1,5 @@
 import { CodeItem, Container, InfosContainer, TextContainer } from './styles';
-import picture from '../../assets/profile-Israel.jpg';
+import picture from '../../assets/profile.jpg';
 
 function HomeHero() {
   return (

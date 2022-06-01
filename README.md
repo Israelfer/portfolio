@@ -14,7 +14,7 @@ _Front-end:_ ReactJS, NextJS, Styled Components, TypeScript, Prismic, Prettier, 
 
 _Deploy:_ Vercel
 
-## Rodando localmente ⚙️
+<!-- ## Rodando localmente ⚙️
 
 Clone o projeto
 
@@ -34,7 +34,7 @@ Execute o projeto
 ```bash
   yarn dev
   Acesse: http://localhost:3000
-```
+``` -->
 
 ## Autor
 
