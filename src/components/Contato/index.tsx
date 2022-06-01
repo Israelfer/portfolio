@@ -6,8 +6,13 @@ function Contato() {
   return (
     <Container>
       <SectionTitle
-        title="Quer falar comigo?"
-        description="Me add no Discord: Learsi#9126"
+        title="Entre em contato"
+        description={
+          <>
+            Me add no Discord: <i>Learsi#9126</i> <br /> Ou entre em contato nas
+            redes sociais abaixo!
+          </>
+        }
       />
       {/* <Form /> */}
     </Container>
