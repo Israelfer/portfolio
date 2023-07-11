@@ -19,7 +19,10 @@ function HomeHero() {
               Nome: <span className="blue">Israel Batista</span>
             </div>
             <div>
-              Idade: <span className="blue">24 anos</span>
+              Idade: <span className="blue">26 anos</span>
+            </div>
+            <div>
+              Hobbies: <span className="blue">Viajar e futebol</span>
             </div>
             {'\u007D'}
           </CodeItem>

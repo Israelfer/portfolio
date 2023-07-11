@@ -9,8 +9,9 @@ function Contato() {
         title="Entre em contato"
         description={
           <>
-            Me add no Discord: <i>Learsi#9126</i> <br /> Ou entre em contato nas
-            redes sociais abaixo!
+            nas redes sociais abaixo.
+            <br />
+            Conheça o meu vlog pelo canal no youtube.
           </>
         }
       />

@@ -1,7 +1,8 @@
 import {
   AiOutlineTwitter,
   AiOutlineGithub,
-  AiFillLinkedin
+  AiFillLinkedin,
+  AiFillYoutube
 } from 'react-icons/ai';
 import { Container } from './styles';
 
@@ -34,6 +35,11 @@ function Footer() {
           />
           <AiOutlineTwitter
             onClick={() => handleRedirect('https://twitter.com/_Israelbatista')}
+          />
+          <AiFillYoutube
+            onClick={() =>
+              handleRedirect('https://www.youtube.com/@_israelbatista')
+            }
           />
         </section>
       </div>
